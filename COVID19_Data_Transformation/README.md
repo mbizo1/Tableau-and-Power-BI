@@ -26,6 +26,37 @@ Two datasets were imported into the `CovidPortfolio` database:
 
 The datasets are joined using `location` and `date`.
 
+## Data Preparation and Cleaning
+
+Before conducting the SQL analysis, the historical COVID-19 datasets required preparation to ensure compatibility with Microsoft SQL Server.
+
+### Challenges Encountered
+
+- **CSV formatting:** The source files contained semicolon delimiters and comma-based decimal formatting, which caused problems during the initial SQL Server import.
+- **Data type inconsistencies:** Several numeric and date fields were initially imported as text, preventing accurate calculations.
+- **Import errors:** The SQL Server Import Flat File Wizard could not successfully process the original files.
+
+### Solutions Implemented
+
+1. Standardised the CSV formatting for SQL Server compatibility.
+2. Imported the datasets into staging tables using `BULK INSERT`.
+3. Validated date and numeric fields before converting their data types.
+4. Created the final `CovidDeath` and `CovidVaccinations` tables with appropriate SQL data types for the main analytical columns.
+5. Checked for missing values and verified that both datasets could be joined using `location` and `date`.
+
+### Data Validation Results
+
+| Validation Check | Result |
+|---|---|
+| COVID-19 deaths records | 85,171 |
+| COVID-19 vaccination records | 85,171 |
+| Successfully matched records | 85,171 |
+| Invalid dates detected during staging validation | 0 |
+
+These preparation steps improved data quality and ensured that the datasets were suitable for SQL exploration, aggregation, and vaccination analysis.
+
+**Skills demonstrated:** Data cleaning, data type conversion, staging tables, SQL Server bulk imports, and data validation.
+
 ## SQL Skills Demonstrated
 
 - Data exploration with `SELECT`, `WHERE` and `ORDER BY`
