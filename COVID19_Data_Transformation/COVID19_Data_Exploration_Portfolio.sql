@@ -87,16 +87,6 @@ WHERE continent IS NOT NULL
 ORDER BY location, [date];
 
 
---select * 
---from CovidVaccinations
---order by 3, 4
-
---Selecting data  that we are working on
-Select Location, date, total_cases, new_cases, total_deaths, population
-from CovidDeath
-order by 1, 2
-
-
 -- ============================================================
 -- SECTION 2: SOUTH AFRICA COVID-19 ANALYSIS
 -- ============================================================
@@ -218,18 +208,6 @@ SELECT
 FROM LatestCountryDeaths
 WHERE RowNum = 1
 GROUP BY continent
-ORDER BY TotalDeathCount DESC;
-
-
--- 4.2 Countries with the highest recorded death totals
-
-SELECT
-    location,
-    MAX(total_deaths) AS TotalDeathCount
-
-FROM dbo.CovidDeath
-WHERE continent IS NOT NULL
-GROUP BY location
 ORDER BY TotalDeathCount DESC;
 
 
