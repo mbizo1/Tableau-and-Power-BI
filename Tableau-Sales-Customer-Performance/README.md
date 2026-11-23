@@ -8,11 +8,11 @@ An interactive Tableau portfolio project exploring retail sales performance, pro
 
 ### Sales Performance Overview
 
-![Sales Performance Overview](screenshots/sales-dashboard.png)
+![Sales Performance Overview](screenshots/Sales-Dashboard.png)
 
 ### Customer Performance Overview
 
-![Customer Performance Overview](screenshots/customer-dashboard.png)
+![Customer Performance Overview](screenshots/Customer-Dashboard.png)
 
 ## Business questions
 
