@@ -80,16 +80,18 @@ These observations describe the dashboard outputs; they do not establish the und
 ```text
 Tableau-Sales-Customer-Performance/
 ├── README.md
+├── Sales_Customer_Performance_Analytics.twbx
+├── THIRD_PARTY_NOTICES.md
 └── screenshots/
-    ├── sales-dashboard.png
-    └── customer-dashboard.png
+    ├── Sales-Dashboard.png
+    └── Customer-Dashboard.png
 ```
 
-The editable packaged workbook, `Sales_Customer_Performance_Analytics.twbx`, is retained locally. It can be added to the public repository after the terms applicable to its embedded source materials and data have been confirmed.
+**[Download the Tableau packaged workbook](Sales_Customer_Performance_Analytics.twbx)** to explore both interactive dashboards in Tableau Desktop. The source materials are attributed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), which reproduces the MIT licence notice from Data With Baraa's reference repository.
 
 ## How to explore
 
-The screenshots above preview the finished dashboards. The packaged workbook is currently retained locally while its source-material permissions are checked.
+The screenshots above preview the finished dashboards. The packaged workbook is available in this folder for interactive exploration.
 
 For local review in Tableau Desktop:
 
@@ -116,4 +118,4 @@ This project began as a learning exercise following that tutorial. The initial d
 
 **Dataset provenance:** The workbook uses the sales/customer dataset supplied or demonstrated with the tutorial. Its exact licensing and redistribution conditions have not been independently established for this copy; the figures are presented as tutorial-data analytics, not as operational results for a real retailer.
 
-**Redistribution note:** The [official Data With Baraa Tableau GitHub repository](https://github.com/DataWithBaraa/tableau-ultimate-course) displays an MIT licence, but the separate [Academy Tableau course download](https://academy.datawithbaraa.com/l/digital_download/930713/tableau-course-materials) states that redistribution of its downloadable materials requires written permission. Because the origin and terms of this workbook's embedded extract are not yet confirmed, this portfolio page currently shares original explanatory text and screenshots of my enhanced dashboards, **not** the packaged `.twbx` or the tutorial data. The original creator is credited and linked above.
+**Source-material notice:** Data With Baraa's [reference Tableau GitHub repository](https://github.com/DataWithBaraa/tableau-ultimate-course) includes this project and its datasets under an MIT licence. The original copyright and permission notice are preserved in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The precise 2024 download route for this workbook is not independently established. This portfolio presents a tutorial-based workbook with subsequent documented enhancements.
