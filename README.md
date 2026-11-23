@@ -54,7 +54,7 @@ Enhanced two connected Tableau dashboards covering sales performance, profitabil
 
 **[View the dashboards and screenshots](./Tableau-Sales-Customer-Performance/)**
 
-*Based on Data With Baraa's Tableau tutorial, with subsequent redesign, troubleshooting and validation documented in the project README. The packaged workbook is not publicly redistributed while the source-material permissions are being clarified.*
+*Based on Data With Baraa's Tableau tutorial, with subsequent redesign, troubleshooting and validation documented in the project README. The downloadable workbook is published with a third-party MIT licence notice and attribution.*
 
 ## Technical toolkit
 
